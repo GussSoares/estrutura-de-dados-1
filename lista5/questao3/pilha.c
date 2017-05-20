@@ -102,7 +102,7 @@ int remover_final(Pilha* pi){
         no = no->prox;
     }
     
-    if(no == (*pi))//remover o primeiro?
+    if(no == (*pi))//remover o primeiro se a lista tiver um elemento
         *pi = no->prox;
     else
         ant->prox = no->prox;

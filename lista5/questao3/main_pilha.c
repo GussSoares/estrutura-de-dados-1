@@ -22,10 +22,10 @@ int main(){
 	inserir_final(pi, a[4]);
 	inserir_final(pi, a[5]);
 	
-	for(i=0; i<4; i++)
+	for(i=0; i<6; i++)
 		remover_final(pi);
 	
-	inserir_final(pi, a[3]);
+	//inserir_final(pi, a[3]);
 
 	print_pilha(pi);
 	liberar_pilha(pi);
